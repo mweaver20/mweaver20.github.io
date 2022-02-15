@@ -1,0 +1,263 @@
+html {
+  font-size: 16px;
+  height: 100%;
+  width: 100vh;
+}
+
+body {
+  background: white;
+  height: 100%;
+  width: 100vw;
+}
+
+header {
+  display: inline-flex;
+  height: 5%;
+  margin: 0;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  align-content: center;
+  border-bottom: 2px solid black;
+  padding-right: 15px;
+  box-sizing: content-box;
+}
+
+header img {
+  height: 70px;
+  width: 70px;
+  align-self: center;
+  background-color: #e99f0cc2;
+
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+header li {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: underline;
+  color: black;
+  font-weight: 560;
+  font-family: "Big Shoulders Display", "cursive";
+  cursor: pointer;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.logos {
+  display: inline-flex;
+  box-sizing: border-box;
+  align-content: center;
+  cursor: pointer;
+  height: 100%;
+  background-color: #9f4119;
+
+  padding-right: 12px;
+  padding-left: 5px;
+  border-radius: 100px;
+}
+
+.logos h2 {
+  font-family: "IM Fell English", serif;
+  margin-left: 10px;
+  color: black;
+  font-size: 1.4rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 50px 0px;
+  color: white;
+  text-align: center;
+  background-image: url(./images.html/black\ cat\ background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+main .mishead {
+  font-family: "Big Shoulders Display", "cursive";
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+main .misp {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+}
+
+section {
+  background-color: #9f4119;
+  width: 100%;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+
+.animals h2 {
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+
+  font-family: "Big Shoulders Display", "cursive";
+  letter-spacing: 5px;
+  font-size: 3rem;
+}
+
+.cat-list {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.animals figure {
+  background-color: white;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+figcaption {
+  font-family: "Lato", sans-serif;
+  color: #f1efe4;
+  text-align: center;
+  background-color: black;
+  margin-top: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 10px;
+}
+
+.animals img {
+  border-radius: 40px;
+}
+
+.cat1 img {
+  height: 200px;
+  width: 300px;
+  margin: 15px 5px;
+  border: 2px solid white;
+}
+
+.cat2 img {
+  height: 200px;
+  width: 300px;
+  margin: 15px 5px;
+  border: 2px solid white;
+}
+
+.cat3 img {
+  height: 200px;
+  width: 300px;
+  margin: 15px 5px;
+  border: 2px solid white;
+}
+
+.cat4 img {
+  height: 200px;
+  width: 300px;
+  margin: 15px 5px;
+  border: 2px solid white;
+}
+
+.cat5 img {
+  height: 200px;
+  width: 300px;
+  margin: 15px 5px;
+  border: 2px solid white;
+}
+
+.staff {
+  background-color: black;
+  border-radius: 20px;
+  width: 90%;
+  margin: 100px auto 0px auto;
+  padding-bottom: 40px;
+  box-shadow: brown;
+}
+
+.staff img {
+  height: 270px;
+  width: 225px;
+  border-radius: 100px;
+}
+
+.staff figure {
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 10 auto;
+}
+
+.staffimgs {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.staff h2 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Big Shoulders Display", "cursive";
+  letter-spacing: 5px;
+  font-size: 3rem;
+}
+
+.staff2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 0px;
+}
+
+.staff figcaption {
+  margin: 10px auto;
+  width: 90%;
+  background-color: white;
+  color: black;
+  font-size: larger;
+}
+
+.staff1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px 0;
+}
+
+.staff3 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 0;
+}
